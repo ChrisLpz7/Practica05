@@ -60,4 +60,32 @@ while True:
         print("Cerrando")
         break
     else:
+        elif escoger == 7:
+        total = 0
+        cosa = 0
+        while True:
+            numero = float(input("Ingresa un numero: "))
+            if numero == -1:
+                break
+            total += numero
+            cosa += 1
+        if cosa > 0:
+            promedio = total / cosa
+            print(f"El promedio es: {promedio}")
+        else:
+            print("No hay numeros")
+
+    elif escoger == 8:
+        numero = int(input("Ingresa la cantidiad de numeros: "))
+        lista = []
+        for uwu in range(numero):
+            numero = float(input(f"Ingrese el número {uwu + 1}: "))
+            lista.append(numero)
+        if lista:
+            maximo = max(lista)
+            minimo = min(lista)
+            print(f"El valor maximo es: {maximo}")
+            print(f"El valor minimo es: {minimo}")
+        else:
+            print("No hay numeros")
         print("No se encuentra esa opcion")
