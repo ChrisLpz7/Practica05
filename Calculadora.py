@@ -34,8 +34,17 @@ while True:
             print("El resultado de la division es:", division)
         else:
             print("No se puede dividir entre 0.")
-    
-    
+    elif escoger==4:
+        numero=int(input("Ingresa un numero para calcular su factorial:"))
+        factorial=1
+        if numero < 0:
+            print("No se puede hacer con numeros negativos")
+        elif numero==0:
+            print("El factorial de 0 es 1")
+        else:
+            for uwu in range(1,numero+1):
+                factorial*=uwu
+            print(f"El factorial de {numero} es: {factorial}")
     elif escoger == 9:
         print("Cerrando")
         break
