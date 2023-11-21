@@ -45,6 +45,11 @@ while True:
             for uwu in range(1,numero+1):
                 factorial*=uwu
             print(f"El factorial de {numero} es: {factorial}")
+    elif escoger == 5:
+        num = int(input("Ingresa un numero: "))
+        print(f"Tabla de multiplicar de {num}:")
+        for uwu  in range(1, 11):
+            print(f"{num} x {uwu} = {num * uwu}")
     elif escoger == 9:
         print("Cerrando")
         break
