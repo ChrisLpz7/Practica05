@@ -50,6 +50,12 @@ while True:
         print(f"Tabla de multiplicar de {num}:")
         for uwu  in range(1, 11):
             print(f"{num} x {uwu} = {num * uwu}")
+    elif escoger == 6:
+        numero = float(input("Ingresa un numero:"))
+        cuadrado = numero ** 2
+        cubo = numero ** 3
+        print(f"El cuadrado de {numero} es: {cuadrado}")
+        print(f"El cubo de {numero} es: {cubo}")
     elif escoger == 9:
         print("Cerrando")
         break
