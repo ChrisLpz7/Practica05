@@ -56,11 +56,8 @@ while True:
         cubo = numero ** 3
         print(f"El cuadrado de {numero} es: {cuadrado}")
         print(f"El cubo de {numero} es: {cubo}")
-    elif escoger == 9:
-        print("Cerrando")
-        break
-    else:
-        elif escoger == 7:
+    
+    elif escoger == 7:
         total = 0
         cosa = 0
         while True:
@@ -74,7 +71,7 @@ while True:
             print(f"El promedio es: {promedio}")
         else:
             print("No hay numeros")
-
+    
     elif escoger == 8:
         numero = int(input("Ingresa la cantidiad de numeros: "))
         lista = []
@@ -88,4 +85,10 @@ while True:
             print(f"El valor minimo es: {minimo}")
         else:
             print("No hay numeros")
+    
+    elif escoger == 9:
+        print("Cerrando")
+        break
+    else:
+        print("No hay numeros")
         print("No se encuentra esa opcion")
